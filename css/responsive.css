@@ -59,8 +59,8 @@
 	 margin-left:20px;
 	}
 	.banner-content{ 
-         width:100%;
-        }
+     width:100%;
+    }
 	.banner-content h1{ 
 	font-size:34px;
 	margin-bottom:12px;
@@ -73,20 +73,15 @@
 	min-height:auto;
 	}
 	.abt-img {
-        height:400px;
-	display:flex;
-	}
-	.about-icon {
-	  text-align:center;
-	  margin-top:0px;
-	  margin-left:0px;
+		height:400px;
+	
 	}
 	.about{
 		padding:20px 0 30px 0;
 	}
 	.img-content{ 
 	    padding:10px 0px;
-        }
+    }
 	.team-content{
 		margin-bottom:20px;
 	}
@@ -116,6 +111,126 @@
 	.container{
 		width:720px;
 	}
+	.col-md-1{
+	  flex:0 0 auto;
+	  width:8.33%;
+	
+}
+.col-md-2{
+	  flex:0 0 auto;
+	  width:16.66%;
+	  
+}
+.col-md-3{
+	  flex:0 0 auto;
+	  width:25%;
+	 
+}
+.col-md-4{
+	  flex:0 0 auto;
+	  width:33.33%;
+	  
+}
+.col-md-5{
+	  flex:0 0 auto;
+	  width:41.66%;
+	  
+}
+.col-md-6{
+	  flex:0 0 auto;
+	  width:50%;
+	 
+}
+.col-md-7{
+	  flex:0 0 auto;
+	  width:58.33%;
+	  
+}
+.col-md-8{
+	  flex:0 0 auto;
+	  width:66.66%;
+
+}
+.col-md-9{
+	  flex:0 0 auto;
+	  width:75%;
+	  
+}
+.col-md-10{
+	  flex:0 0 auto;
+	  width:83.33%;
+	  
+}
+.col-md-11{
+	  flex:0 0 auto;
+	  width:91.66%;
+	  
+}
+.col-md-12{
+	  flex:0 0 auto;
+	  width:100%;
+	  
+}
+    .d-md1-none{
+		display:none !important;
+	}
+	.banner-content p{ 
+	font-size:16px;
+	}
+	.abt-img {
+		height:550px;
+        margin-bottom: 30px;
+	}
+	
+}
+
+@media (max-width:992px){
+	.d-md-block{
+		display:block !important;
+	}
+	.d-md-none{
+		display:none !important;
+	}
+	.contact-info span{ font-size:16px;
+	 margin-left:20px;
+	}
+	.banner-content{ 
+     width:100%;
+    }
+	.choose-item{ 
+	margin-top:20px;
+	min-height:auto;
+	}
+	.banner-content h1{ 
+	font-size:28px;
+	line-height:30px;
+	}
+	.about{
+		padding:20px 0 30px 0;
+	}
+	.team-content{
+		margin-bottom:20px;
+	}
+	.box-2{
+		padding:0 0;
+	}
+	.contact-box {
+		padding:0 0;
+	}
+	.contact-text p {
+    font-size: 18px;
+    padding-right: 80px;
+	}
+	.footer-sec{
+		padding:0 0;
+	}
+	.flast-section{
+		text-align:center;
+	}
+	.footer{ display:flex;
+     justify-content:center;
+     margin:10px;
+    }
 }
 @media (min-width:992px){
 	.container{
