@@ -236,6 +236,12 @@
 	.container{
 		width:950px;
 	}
+	.d-lg-block{
+	display:block !important;
+}
+.d-lg-none{
+	display:none !important;
+}
 }
 @media (min-width:1200px){
 	.container{
@@ -301,6 +307,7 @@
 	  width:100%;
 	  
 }
+
 }
 @media (min-width:1400px){
 	.container{
