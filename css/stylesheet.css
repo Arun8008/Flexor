@@ -3,6 +3,7 @@
 	       width:100%;
 		   padding:0 15px;
 		   margin:0 auto;
+		   position:relative;
 }
 
 .row{ display:flex;
@@ -19,6 +20,9 @@
 	justify-content:space-between;
 }
 .align-item-center{ align-items:center;
+}
+.d-none{
+	display:none !important;
 }
 /*=========btn constant======*/
 .btn{ display:inline-block;
@@ -86,6 +90,17 @@ padding:15px 25px;
 }
 .nav-section{ background-color:white;
 	padding:10px 0;
+}
+.menu-btn{
+	position:absolute;
+	top:0;
+	right:10px;
+	width:40px;
+	height:auto;
+	padding:0;
+	border:0;
+	background-color:transparent;
+	font-size:30px;
 }
 
 h1.logo >a{
@@ -231,20 +246,23 @@ line-height:22px;
 	  background-position:center;
 	  background-repeat:no-repeat;
 	  position:relative;
+	  display:flex;
 	  justify-content:center;
 	  align-items:center;
   }
+  .abt-img a{ display:inline-block;
+      text-decoration:none;
+	  color:#fff;
+  }
   .about-icon{
 	  background-color:#00bcd4;
-	  width:70px;
-	  height:70px;
+	  width:80px;
+	  height:80px;
 	  border-radius:50%;
 	  text-align:center;
-	  line-height:50px;
+	  line-height:80px;
 	  font-size:30px;
 	  color:#fff;
-	  margin-top:300px;
-	  margin-left:200px;
 	  
   }
   .about-icon i{ 
@@ -879,9 +897,7 @@ text-align:center;
     padding: 10px;
     text-align: center;
 }
-.contact-text{ display:flex;
-flex-wrap:wrap;
-justify-content:space-between;
+.contact-text{ 
 }
 .contact-text h3{ margin-left: 67px;
     font-size: 20px;
