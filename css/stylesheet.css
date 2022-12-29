@@ -24,6 +24,9 @@
 .d-none{
 	display:none !important;
 }
+.d-block{
+	display:block !important;
+}
 /*=========btn constant======*/
 .btn{ display:inline-block;
 text-decoration:none;
@@ -214,7 +217,6 @@ line-height:36px;
 }
 .choose-item{
 background-color:white;
-
 border-radius:10px;
 padding:40px 20px;
 box-shadow:0 0 5px #72686873;
