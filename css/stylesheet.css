@@ -221,6 +221,7 @@ border-radius:10px;
 padding:40px 20px;
 box-shadow:0 0 5px #72686873;
 text-align:center;
+min-height: 300px;
 }
 .choose-item i{ 
 color:#00bcd4;
