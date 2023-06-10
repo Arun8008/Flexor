@@ -95,13 +95,13 @@
 		padding:0 0;
 	}
 	.flast-section{
+		display:flex;
+        justify-content:center;
 		text-align:center;
-	}
-	.footer{ display:flex;
-     justify-content:center;
-     margin:10px;
-    }
+		margin:10px;
+	}	
 }
+
 @media (min-width:576px){
 	.container{
 		width:550px;
@@ -232,15 +232,7 @@
 	  width:100%;
 	  
 }
-    
-	.banner-content p{ 
-	font-size:16px;
-	}
-	.abt-img {
-		height:550px;
-        margin-bottom: 30px;
-	}
-	
+  
 }
 @media (min-width:576px) and (max-width:768px){
 	.d-md1-none{
@@ -258,6 +250,15 @@
 	.d-md-none{
 		display:none !important;
 	}
+	  
+	.banner-content p{ 
+	font-size:16px;
+	}
+	.abt-img {
+		height:650px;
+        margin-bottom: 30px;
+	}
+	
 	.contact-info span{ font-size:16px;
 	 margin-left:20px;
 	}
