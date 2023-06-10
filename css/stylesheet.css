@@ -6,7 +6,8 @@
 		   position:relative;
 }
 
-.row{ display:flex;
+.row{ 
+ display:flex;
  flex-wrap:wrap;
  margin-right: -15px;
  margin-left: -15px;
@@ -91,47 +92,133 @@ color:white;
 text-decoration:none;
 padding:15px 25px;
 }
-.nav-section{ background-color:white;
-	padding:10px 0;
-}
-.menu-btn{
-	position:absolute;
-	top:0;
-	right:10px;
-	width:40px;
-	height:auto;
-	padding:0;
-	border:0;
-	background-color:transparent;
-	font-size:30px;
-}
+/* .nav-section{ background-color:white; */
+	/* padding:10px 0; */
+/* } */
+/* .menu-btn{ */
+	/* position:absolute; */
+	/* top:0; */
+	/* right:10px; */
+	/* width:40px; */
+	/* height:auto; */
+	/* padding:0; */
+	/* border:0; */
+	/* background-color:transparent; */
+	/* font-size:30px; */
+/* } */
 
-h1.logo >a{
-display:inline-block;  
-text-decoration:none;
-font-family: 'Raleway', sans-serif;
-color:#635551;
-font-size:30px;
-font-weight:700;
-}
-.menubar{ display:flex;
-justify-content:flex-end;
+/* h1.logo >a{ */
+/* display:inline-block;   */
+/* text-decoration:none; */
+/* font-family: 'Raleway', sans-serif; */
+/* color:#635551; */
+/* font-size:30px; */
+/* font-weight:700; */
+/* } */
+/* .menubar{  */
+/* display:flex; */
+/* justify-content:flex-end; */
 
+/* } */
+/* .menubar .nav-link a{  */
+/* display:block; */
+/* text-decoration:none; */
+/* color:#635551; */
+/* padding-bottom:20px; */
+/* padding-top:20px; */
+/* padding-right:15px; */
+/* padding-left:15px; */
+/* font-size:14px; */
+/* font-family: 'Raleway', sans-serif; */
+/* } */
+/* .nav-link a:hover{ color:#00bcd4; */
+/* } */
+/* .nav-link a.active{ color:#00bcd4; */
+/* } */
+.header{
+	background:white;
+	width:100%;
+	padding: 10px;
 }
-.menubar .nav-link a{ display:block;
-text-decoration:none;
-color:#635551;
-padding-bottom:20px;
-padding-top:20px;
-padding-right:15px;
-padding-left:15px;
-font-size:14px;
-font-family: 'Raleway', sans-serif;
+li{
+	list-style:none;
 }
-.nav-link a:hover{ color:#00bcd4;
+a{
+	color:black;
+	text-decoration:none;
 }
-.nav-link a.active{ color:#00bcd4;
-}
+.nav-container{ 
+    width:80%; 
+    margin:auto;
+} 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+.nav-menu {
+    display: flex;
+	justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+        }
+.nav-branding {
+    font-size: 35px;
+	color:rgba(0, 0, 0, 0.76);
+	font-weight: 600;
+        }
+.nav-link {
+    transition: 0.7s ease;
+	font-size:17px;
+        }
+.nav-link:hover {
+    color:#43cfd7;
+        }
+.hamburger {
+    display: none;
+    cursor: pointer;
+        }
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin:  5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background:black;
+        }
+/* */
+@media(max-width:900px) {
+        .hamburger {
+            display: block;
+        }
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+            }
+        .hamburger.active .bar:nth-child(1) {
+             transform: translateY(8px) rotate(45deg);
+            }
+        .hamburger.active .bar:nth-child(3) {
+             transform: translateY(-8px) rotate(-45deg);
+            }
+.nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        gap: 0;
+        flex-direction: column;
+        background:white;
+        width: 100%;
+            }
+.nav-item {
+        margin: 12px 0;
+		/* font-size: 42px; */
+            }
+.nav-menu.active {
+        left: 0;
+            }
+        }
+/*======Banner Section=======*/
 .banner-section{ 
  background-image:linear-gradient(rgba( 0,0,0,0.55),rgba( 0,0,0,0.55)),url('../image/hero-bg.jpg');
  background-repeat:no-repeat;
@@ -248,7 +335,6 @@ line-height:22px;
 	  background-size:cover;
 	  background-position:center;
 	  background-repeat:no-repeat;
-	  position:relative;
 	  display:flex;
 	  justify-content:center;
 	  align-items:center;
@@ -443,7 +529,8 @@ padding:60px 0;
     margin-bottom: 30px;
 }
 
-.service-content{ background-color:#fff;
+.service-content{
+	background-color:#fff;
 margin-top:60px;
 position:relative;
 padding:45px 20px 30px; 
@@ -620,7 +707,8 @@ padding:0 12px;
 	background-color:#00bcd4;
 }
 /*--------Portfolio Style ------*/
-.portfolio-sec{ background-color:white;
+.portfolio-sec{ 
+background-color:white;
 padding:40px 0;
 }
 .menubar1{ display:flex;
@@ -899,8 +987,6 @@ text-align:center;
     border: dotted 2px #00bcd4;
     padding: 10px;
     text-align: center;
-}
-.contact-text{ 
 }
 .contact-text h3{ margin-left: 67px;
     font-size: 20px;
