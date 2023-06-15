@@ -151,6 +151,11 @@ a{
     width:80%; 
     margin:auto;
 } 
+.nav-section{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -187,37 +192,10 @@ a{
     transition: all 0.3s ease-in-out;
     background:black;
         }
+#active{
+    color:#00bcd4 ;
+}
 /* */
-@media(max-width:900px) {
-        .hamburger {
-            display: block;
-        }
-        .hamburger.active .bar:nth-child(2) {
-            opacity: 0;
-            }
-        .hamburger.active .bar:nth-child(1) {
-             transform: translateY(8px) rotate(45deg);
-            }
-        .hamburger.active .bar:nth-child(3) {
-             transform: translateY(-8px) rotate(-45deg);
-            }
-.nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 80px;
-        gap: 0;
-        flex-direction: column;
-        background:white;
-        width: 100%;
-            }
-.nav-item {
-        margin: 12px 0;
-		/* font-size: 42px; */
-            }
-.nav-menu.active {
-        left: 0;
-            }
-        }
 /*======Banner Section=======*/
 .banner-section{ 
  background-image:linear-gradient(rgba( 0,0,0,0.55),rgba( 0,0,0,0.55)),url('../image/hero-bg.jpg');
